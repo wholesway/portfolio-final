@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Build output
+public/build/
+
+# Production-only files
+.env
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env.*.local
+.env.*.production
+.env.*.development
+
+# Yarn-generated files
+yarn-error.log
+.yarn-integrity
+.yarn-metadata.json
+
+# Server side
+/server/node_modules
+/server/dist
+/server/build
+
+# Client side
+/client/node_modules
+/client/dist
+/client/build
+
